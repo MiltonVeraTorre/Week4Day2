@@ -1,0 +1,66 @@
+/* Animacion con keyframes */
+.stApp {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(315deg, #dcd1ee 3%, #747678 38%, #9ff8f6 68%, #3b93e5 98%);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+.dashboard_title {
+    font-size: 3rem; 
+    color: #fcfcfc;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.dashboard_subtitle {
+    font-size: 1.5rem; 
+    color: #fff;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.centered_content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header_image {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.page_heading {
+    font-size: 2.5rem;
+    color: #fcfcfc;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section_subheading {
+    font-size: 2rem;
+    color: #fcfcfc;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.page_content {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
